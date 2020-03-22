@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		8C3F210B24278DB2005EF484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F210A24278DB2005EF484 /* AppDelegate.swift */; };
 		8C3F210D24278DB2005EF484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F210C24278DB2005EF484 /* SceneDelegate.swift */; };
-		8C3F210F24278DB2005EF484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F210E24278DB2005EF484 /* ViewController.swift */; };
 		8C3F211224278DB2005EF484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F211024278DB2005EF484 /* Main.storyboard */; };
 		8C3F211424278DB6005EF484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F211324278DB6005EF484 /* Assets.xcassets */; };
 		8C3F211724278DB6005EF484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F211524278DB6005EF484 /* LaunchScreen.storyboard */; };
+		8C3F212024279799005EF484 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F211F24279799005EF484 /* RegisterViewController.swift */; };
+		8C3F212224279E28005EF484 /* InputTravelerIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F212124279E28005EF484 /* InputTravelerIdViewController.swift */; };
+		8C3F21242427A34E005EF484 /* TravelStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F21232427A34E005EF484 /* TravelStyleViewController.swift */; };
+		8C3F21262427A3A6005EF484 /* SelectPublishingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F21252427A3A6005EF484 /* SelectPublishingViewController.swift */; };
+		8C3F21282427A3CD005EF484 /* SelectTravelScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F21272427A3CD005EF484 /* SelectTravelScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C3F210724278DB2005EF484 /* swift-register-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-register-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3F210A24278DB2005EF484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C3F210C24278DB2005EF484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C3F210E24278DB2005EF484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C3F211124278DB2005EF484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C3F211324278DB6005EF484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3F211624278DB6005EF484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C3F211824278DB6005EF484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3F211F24279799005EF484 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8C3F212124279E28005EF484 /* InputTravelerIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTravelerIdViewController.swift; sourceTree = "<group>"; };
+		8C3F21232427A34E005EF484 /* TravelStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelStyleViewController.swift; sourceTree = "<group>"; };
+		8C3F21252427A3A6005EF484 /* SelectPublishingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPublishingViewController.swift; sourceTree = "<group>"; };
+		8C3F21272427A3CD005EF484 /* SelectTravelScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTravelScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		8C3F210924278DB2005EF484 /* swift-register-sample */ = {
 			isa = PBXGroup;
 			children = (
+				8C3F211E2427975D005EF484 /* view */,
 				8C3F210A24278DB2005EF484 /* AppDelegate.swift */,
 				8C3F210C24278DB2005EF484 /* SceneDelegate.swift */,
-				8C3F210E24278DB2005EF484 /* ViewController.swift */,
 				8C3F211024278DB2005EF484 /* Main.storyboard */,
 				8C3F211324278DB6005EF484 /* Assets.xcassets */,
 				8C3F211524278DB6005EF484 /* LaunchScreen.storyboard */,
 				8C3F211824278DB6005EF484 /* Info.plist */,
 			);
 			path = "swift-register-sample";
+			sourceTree = "<group>";
+		};
+		8C3F211E2427975D005EF484 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8C3F211F24279799005EF484 /* RegisterViewController.swift */,
+				8C3F212124279E28005EF484 /* InputTravelerIdViewController.swift */,
+				8C3F21232427A34E005EF484 /* TravelStyleViewController.swift */,
+				8C3F21252427A3A6005EF484 /* SelectPublishingViewController.swift */,
+				8C3F21272427A3CD005EF484 /* SelectTravelScheduleViewController.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3F210F24278DB2005EF484 /* ViewController.swift in Sources */,
+				8C3F21282427A3CD005EF484 /* SelectTravelScheduleViewController.swift in Sources */,
+				8C3F21242427A34E005EF484 /* TravelStyleViewController.swift in Sources */,
+				8C3F21262427A3A6005EF484 /* SelectPublishingViewController.swift in Sources */,
 				8C3F210B24278DB2005EF484 /* AppDelegate.swift in Sources */,
 				8C3F210D24278DB2005EF484 /* SceneDelegate.swift in Sources */,
+				8C3F212024279799005EF484 /* RegisterViewController.swift in Sources */,
+				8C3F212224279E28005EF484 /* InputTravelerIdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

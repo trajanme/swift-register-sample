@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TravelStyleViewController.swift
 //  swift-register-sample
 //
 //  Created by Shintaro Ishikawa on 2020/03/22.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TravelStyleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-
